@@ -1,0 +1,61 @@
+
+div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading styling */
+  h2 {
+    color: #3498db;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Appointment card styling */
+  div > div {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for appointment cards */
+  div > div:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Doctor name styling */
+  p:first-child {
+    font-weight: bold;
+    color: #3498db;
+    font-size: 20px;
+  }
+  
+  /* Patient name styling */
+  p:nth-child(2) {
+    color: #333;
+    font-size: 18px;
+    margin-top: 8px;
+  }
+  
+  /* Timing styling */
+  p:nth-child(3) {
+    color: #555;
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  
+  /* Horizontal line styling */
+  hr {
+    border: 0;
+    height: 1px;
+    background: #bdc3c7;
+    margin: 15px 0;
+  }
+  

@@ -1,0 +1,77 @@
+/* Add these styles to your existing stylesheet or create a new one */
+
+/* Container styling */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h2 {
+  color: #3498db;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styling */
+label {
+  margin-bottom: 15px;
+}
+
+/* Select and input styling */
+select,
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styling */
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Success message styling */
+.success-message {
+  text-align: center;
+  padding: 20px;
+  background-color: #2ecc71;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Link styling */
+a {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Hover effect for buttons and links */
+button:hover, a:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,74 @@
+/* Add these styles to your existing stylesheet or create a new one */
+
+/* Navigation container styling */
+#home-nav {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo styling */
+#logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation links styling */
+#nav-links {
+  display: flex;
+}
+
+.nav-button {
+  background-color: #fff;
+  color: #3498db;
+  padding: 8px 12px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* Authentication links styling */
+#auth-links {
+  display: flex;
+  align-items: center;
+}
+
+.auth-button {
+  background-color: #fff;
+  color: #3498db;
+  padding: 8px 12px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* Welcome message styling */
+p {
+  margin: 0;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
